@@ -1,0 +1,2 @@
+# Este proyecto usa solo la biblioteca estándar de Python (3.8 o superior).
+# No hay dependencias externas que instalar.
