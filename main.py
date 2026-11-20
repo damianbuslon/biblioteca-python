@@ -1,4 +1,10 @@
+"""Punto de entrada del Sistema de Gestión de Biblioteca.
 
+Aquí se "ensambla" la aplicación: se crea la base de datos, los repositorios,
+los servicios y los menús, conectándolos entre sí (inyección de dependencias).
+
+Ejecutar con:  python main.py
+"""
 from biblioteca.database import Database
 from biblioteca.repositorios import LibroRepositorio, PrestamoRepositorio, UsuarioRepositorio
 from biblioteca.servicios import LibroServicio, PrestamoServicio, UsuarioServicio

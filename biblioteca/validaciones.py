@@ -1,4 +1,9 @@
+"""Validaciones reutilizables.
 
+Las usa la interfaz (para pedir el dato de nuevo si es inválido) y también
+los servicios (defensa en profundidad: el servicio nunca confía en quien lo llama).
+Cada función devuelve el valor ya limpio y convertido, o lanza ValidacionError.
+"""
 from __future__ import annotations
 
 import re
